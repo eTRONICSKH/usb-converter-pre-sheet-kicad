@@ -286,5 +286,18 @@ D+
 Text Label 6350 3700 0    50   ~ 0
 D-
 Text Notes 4050 4450 0    50   ~ 0
-Best for 3.3V Communication
+Best for 5V Communication
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6025701C
+P 4850 2750
+F 0 "#FLG?" H 4850 2825 50  0001 C CNN
+F 1 "PWR_FLAG" H 4850 2923 50  0000 C CNN
+F 2 "" H 4850 2750 50  0001 C CNN
+F 3 "~" H 4850 2750 50  0001 C CNN
+	1    4850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2750 4850 2800
 $EndSCHEMATC
